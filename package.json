@@ -1,0 +1,25 @@
+{
+  "name": "nerd-grid",
+  "version": "0.1.0",
+  "description": "Grid layout using flex.",
+  "main": "css/nerd-grid.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guoyunhe/nerd-grid.git"
+  },
+  "author": "Guo Yunhe",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/guoyunhe/nerd-grid/issues"
+  },
+  "homepage": "https://github.com/guoyunhe/nerd-grid",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "less-plugin-autoprefix": "^1.4.2",
+    "less-plugin-clean-css": "^1.5.1"
+  }
+}
