@@ -20,8 +20,41 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         <title>Nerd Grid</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/nerd-grid.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .block {
+                background-color: gray;
+                height: 300px;
+            }
+        </style>
     </head>
     <body>
-        <div>Hellow world</div>
+        
+        <div class="container">
+            <h1>Simple Grid</h1>
+            <div class="grid pad">
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-2"><div class="block"></div></div>
+            </div>
+            <div class="grid pad">
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-1"><div class="block"></div></div>
+            </div>
+            <div class="grid pad">
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-1"><div class="block"></div></div>
+            </div>
+            <div class="grid pad">
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-1"><div class="block"></div></div>
+                <div class="column-1"><div class="block"></div></div>
+            </div>
+        </div>
     </body>
 </html>
